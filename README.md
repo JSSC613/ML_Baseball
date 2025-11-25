@@ -28,12 +28,16 @@ MLB_Prediction/
 ├── templates/              # Flask 網頁模板 (index.html)
 ├── app.py                  # Flask 啟動程式
 └── requirements.txt        # 套件需求清單
-🚀 安裝說明 (Installation)
+```
+## 🚀 安裝說明 (Installation)
+```
 1. 克隆專案 (Clone Repository)
 code
 Bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+```
+```
 2. 建立虛擬環境 (Optional but Recommended)
 code
 Bash
@@ -44,12 +48,14 @@ venv\Scripts\activate
 # macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
+```
+```
 3. 安裝依賴套件
 請確保你的環境已安裝 Python。
 code
 Bash
 pip install -r requirements.txt
-🛠️ 使用方法 (Usage)
+## 🛠️ 使用方法 (Usage)
 本系統分為三個階段，請依序執行：
 步驟 1：資料處理 (ETL)
 讀取原始 CSV 檔案，清洗資料，解析先發投手，並計算滾動平均數據 (Rolling Stats)。
@@ -69,11 +75,14 @@ code
 Bash
 python app.py
 開啟瀏覽器輸入 http://127.0.0.1:5000 即可使用。
-📊 使用的技術 (Tech Stack)
+```
+## 📊 使用的技術 (Tech Stack)
+```
 語言: Python
 Web 框架: Flask, Bootstrap 5
 資料處理: Pandas, NumPy
 機器學習: Scikit-Learn (Random Forest), XGBoost
 深度學習: TensorFlow / Keras
 儲存: Joblib
-📝 資料來源 : Retrosheet
+```
+## 📝 資料來源 : Retrosheet
