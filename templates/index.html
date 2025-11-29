@@ -38,7 +38,7 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <label class="form-label fw-bold">主場球隊</label>
-                                <select name="home_team" class="form-select">
+                                <select name="home_team" class="form-select form-select-lg">
                                     {% for t in teams %}
                                     <option value="{{ t.code }}">{{ t.display }}</option>
                                     {% endfor %}
