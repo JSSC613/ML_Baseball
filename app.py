@@ -273,9 +273,9 @@ def index():
             'home_div': TEAM_DISPLAY_INFO.get(home, ''),
             'vis_div': TEAM_DISPLAY_INFO.get(vis, '')
         }
-
+    from src.team_info import get_team_list
     return render_template('index.html', 
-                           teams=teams_options, 
+                           teams=get_team_list(),
                            result=prediction_result,
                            champion=sim_champion,
                            logs=sim_logs)
